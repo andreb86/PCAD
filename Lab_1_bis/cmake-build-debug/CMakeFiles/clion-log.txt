@@ -1,0 +1,4 @@
+/home/abasso/bin/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/abasso/Dropbox/Public/1. development/Informatica/8. DIBRIS/9. PCAD/Lab_1_bis"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abasso/Dropbox/Public/1. development/Informatica/8. DIBRIS/9. PCAD/Lab_1_bis/cmake-build-debug

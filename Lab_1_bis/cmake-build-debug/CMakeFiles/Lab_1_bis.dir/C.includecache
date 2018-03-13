@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abasso/Dropbox/Public/1. development/Informatica/8. DIBRIS/9. PCAD/Lab_1_bis/main.c
+prod_cons.h
+/home/abasso/Dropbox/Public/1. development/Informatica/8. DIBRIS/9. PCAD/Lab_1_bis/prod_cons.h
+
+/home/abasso/Dropbox/Public/1. development/Informatica/8. DIBRIS/9. PCAD/Lab_1_bis/prod_cons.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+pthread.h
+-
+time.h
+-
+sys/types.h
+-
+unistd.h
+-
+

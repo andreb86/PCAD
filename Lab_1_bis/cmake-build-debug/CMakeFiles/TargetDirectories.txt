@@ -1,0 +1,3 @@
+/home/abasso/Dropbox/Public/1. development/Informatica/8. DIBRIS/9. PCAD/Lab_1_bis/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/abasso/Dropbox/Public/1. development/Informatica/8. DIBRIS/9. PCAD/Lab_1_bis/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/abasso/Dropbox/Public/1. development/Informatica/8. DIBRIS/9. PCAD/Lab_1_bis/cmake-build-debug/CMakeFiles/Lab_1_bis.dir

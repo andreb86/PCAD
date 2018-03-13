@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Lab_1_bis.dir/main.c.o  -o Lab_1_bis -lpthread 
