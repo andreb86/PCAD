@@ -5,21 +5,24 @@ import java.util.concurrent.ExecutionException;
 
 public class Main {
 
-	public static void main(String[] args) {
-		RegistrationServer regServ = new RegistrationServer();
-		while (true) {
-			try {
+	public static void main(String[] args) throws IOException {
+		RegistrationServer regServ = new RegistrationServer(9000);
+		try {
+			while (true) {
 				regServ.register();
-			} catch (IOException ioe) {
-				regServ.stop();
-				System.err.println("IO error detected.\n" + ioe.getMessage());
-			} catch (InterruptedException ie) {
-				regServ.stop();
-				System.err.println("Shutting down.\n" + ie.getMessage());
-			} catch (ExecutionException ee) {
-				regServ.stop();
-				System.err.println("Unable to start pool\n" + ee.getMessage());
 			}
+		} catch (IOException ioe) {
+			System.err.println("IO error detected.\n" + ioe.getMessage());
+			regServ.stop();
+			System.exit(1);
+		} catch (InterruptedException ie) {
+			System.err.println("Shutting down.\n" + ie.getMessage());
+			regServ.stop();
+			System.exit(2);
+		} catch (ExecutionException ee) {
+			System.err.println("Unable to start pool\n" + ee.getMessage());
+			regServ.stop();
+			System.exit(3);
 		}
 	}
 
